@@ -1,384 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Neoverv Design Implementation" />
-    <title>neoverv</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/styles/style.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Neoverv Design Implementation" />
+  <title>neoverv</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <!-- <img src="#" alt="neoverv logo" /> -->
+        <a href="/"><span>neo</span>verv</a>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#">neoVision</a></li>
+          <li><a href="#">neoVenture</a></li>
+          <li><a href="#">neoBoost</a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Insights</a></li>
+          <li>
+            <button class="btn">Get in Touch</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="top-hero">
+    <div class="hero-text">
+      <h1>Unlock your full technology potential</h1>
+      <p>
+        We create future-ready technology capabilities that boosr your
+        business and help you become a technology leader. Find out what we can
+        do for you.
+      </p>
+      <div class="links">
+        <a href="#" class="btn">Learn More</a> <span>or</span><a href="#">Contact us</a>
+      </div>
+    </div>
+    <div class="hero-image"></div>
+  </section>
+
+  <section class="our-partners">
+    <h2>Our Partners</h2>
+    <div class="row">
+      <img src="assets/img/partners/logo-leaware.png" alt="partner" />
+
+      <img src="assets/img/partners/logo-mvp.png" alt="partner" />
+
+      <img src="assets/img/partners/logo-tonik.png" alt="partner" />
+    </div>
+
+    <div class="row">
+      <img src="assets/img/partners/logo-kato.png" alt="partner" />
+
+      <img src="assets/img/partners/logo-brighter.png" alt="partner" />
+
+      <img src="assets/img/partners/logo-frischluft.png" alt="partner" />
+
+      <img src="assets/img/partners/logo-heynink.png" alt="partner" />
+    </div>
+  </section>
+
+  <section class="goals">
+    <div class="left-cards-container">
+      <div class="card">
+        <div class="card-logo">
+          <img src="assets/img/goals/icon__goals-foundation.svg" alt="card logo" />
+        </div>
+        <h5 class="card-title">Technology Foundation</h5>
+        <p class="card-text">
+          No business succeeds without technology today. Your technology
+          foundation needs to drive business growth, innovation, and
+          automation.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-logo">
+          <img src="assets/img/goals/icon__goals-speed.svg" alt="card logo" />
+        </div>
+        <h5 class="card-title">Speed & Agility</h5>
+        <p class="card-text">
+          Fast-pace innovations and short product cycles require continuous
+          delivery of technology products and architectural plug & play
+          excellence.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-logo">
+          <img src="assets/img/goals/icon__goals-innovation.svg" alt="card logo" />
+        </div>
+        <h5 class="card-title">Technology Innovation</h5>
+        <p class="card-text">
+          Successful business innovation requires transforming technology
+          trends into business solutions on a continuous basis.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-logo">
+          <img src="assets/img/goals/icon__goals-culture.svg" alt="card logo" />
+        </div>
+        <h5 class="card-title">Culture & Skill Shift</h5>
+        <p class="card-text">
+          Seizing technology opportunities requires continuous learning, an
+          entrepreneurial mindset, and new leadership models.
+        </p>
+      </div>
+    </div>
+
+    <div class="right-cards-container">
+      <div class="lead-text">
+        <h2>UNDERSTAND OPPORTUNITY</h2>
+        <h4>Recognize your goals</h4>
+        <p>
+          Technology provides new opportunities. To leverage them you need to
+          understand your company's technology needs.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-logo">
+          <img src="assets/img/goals/icon__goals-elastic-scaling.svg" alt="card logo" />
+        </div>
+        <h5 class="card-title">Elastic Scaling</h5>
+        <p class="card-text">
+          Markets and business grow dynamically. Technology platforms need to
+          enable fast and efficient scaling.
+        </p>
+      </div>
+      <div class="card">
+        <div class="card-logo">
+          <img src="assets/img/goals/icon__goals-efficiencies.svg" alt="card logo" />
+        </div>
+        <h5 class="card-title">Smart Efficiencies</h5>
+        <p class="card-text">
+          Streaming existing technology assets helps to fuel new
+          technology-driven opportunities.
+        </p>
+      </div>
+      <div class="card">
+        <div class="card-logo">
+          <img src="assets/img/goals/icon__goals-transformation.svg" alt="card logo" />
+        </div>
+        <h5 class="card-title">Transformation Acceleration</h5>
+        <p class="card-text">
+          A clear technology vision shows how to translate opportunities into
+          technology capabilities that advance the business.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-solutions">
     <header>
-      <div class="container">
-        <div class="logo">
-          <!-- <img src="#" alt="neoverv logo" /> -->
-          <a href="/"><span>neo</span>verv</a>
+      <div class="solutions-text">
+        <h2>OUR SOLUTIONS</h2>
+        <h4>We help seizing technology opportunities.</h4>
+
+        <p>
+          Our technology services are designed to build the capabilities
+          required to seize your distinct technology opportunities.
+        </p>
+      </div>
+    </header>
+
+    <!-- neoVision -->
+    <div class="solutions-container">
+      <div class="image-container">
+        <img src="assets/img/solutions/neovery-neovision-v-1-a@2x-1-1-740x522.png" alt="neoVision" />
+      </div>
+      <div class="solution-body">
+        <h3>neoVision</h3>
+        <h4>Design and accelerate future ready technology strategies</h4>
+        <p>
+          A future-ready technology strategy turns your industry-specific
+          technology opportunities into new capabilities that helps advance
+          aspirations. It lays out how to align technology architecture and
+          operations to achieve match with business and market needs.
+        </p>
+
+        <div class="features">
+          <div class="feature">
+            <img src="assets/img/solutions/icon__technology-readiness.svg" alt="technology readiness" />
+            <h5>Technology Readiness</h5>
+          </div>
+          <div class="feature">
+            <img src="assets/img/solutions/icon__technology-strategy.svg" alt="technology strategy" />
+            <h5>Technology Strategy</h5>
+          </div>
+          <div class="feature">
+            <img src="assets/img/solutions/icon__transformation-acceleration.svg" alt="transformation acceleration" />
+            <h5>Transformation Acceleration</h5>
+          </div>
+          <div class="feature">
+            <img src="assets/img/solutions/icon__smart-efficiencies.svg" alt="smart efficiencies" />
+            <h5>Smart Efficiencies</h5>
+          </div>
         </div>
 
-        <nav>
+        <div class="links">
+          <a href="#" class="btn">Send a Request</a><span>or</span><a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- neoVenture -->
+    <div class="solutions-container">
+      <div class="image-container">
+        <img src="assets/img/solutions/neovery-neo-venture-v-1-bez-tla@2x-2-740x445.png" alt="neoVenture" />
+      </div>
+      <div class="solution-body">
+        <h3>neoVenture</h3>
+        <h4>Design, build, and scale technology innovation.</h4>
+        <p>
+          Good technology innovation identifies the most viable innovation
+          topics in your market. It uses customer-centered elaboration of
+          initial product ideas and realizes them by taking a lean start-up
+          approach.
+        </p>
+
+        <div class="features">
+          <div class="feature">
+            <img src="assets/img/solutions/icon__innovation-scouting.svg" alt="innovation scouting" />
+            <h5>innovation scouting</h5>
+          </div>
+          <div class="feature">
+            <img src="assets/img/solutions/icon-neoVenture-Venture-Scaling.svg" alt="venture scaling" />
+            <h5>venture scaling</h5>
+          </div>
+          <div class="feature">
+            <img src="assets/img/solutions/icon__mvp-product-building.svg" alt="MVP & product building" />
+            <h5>MVP & product building</h5>
+          </div>
+          <div class="feature">
+            <img src="assets/img/solutions/icon__innovation-units.svg" alt="innovation units" />
+            <h5>innovation units</h5>
+          </div>
+        </div>
+
+        <div class="links">
+          <a href="#" class="btn">Send a Request</a><span>or</span><a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- neoBoost -->
+    <div class="solutions-container">
+      <div class="image-container">
+        <img src="assets/img/solutions/neovery-neoboost-v-1-beztla@2x-1-1-740x477.png" alt="neoBoost" />
+      </div>
+      <div class="solution-body">
+        <h3>neoBoost</h3>
+        <h4>Boost technology operation for agile scalability.</h4>
+        <p>
+          The new technology operating model is product-centric and sully
+          agile. It aligns business, technology development, and operations
+          teams toward a common goal, maximizing product and customer value.
+          It reduces unnecessary overhead and fosters product quality.
+        </p>
+
+        <div class="features">
+          <div class="feature">
+            <img src="assets/img/solutions/operations-assessement.svg" alt="operations assessment" />
+            <h5>operations assessment</h5>
+          </div>
+          <div class="feature">
+            <img src="assets/img/solutions/icon__agile-coaching.svg" alt="agile coaching" />
+            <h5>agile coaching</h5>
+          </div>
+          <div class="feature">
+            <img src="assets/img/solutions/icon__operating-model-design.svg" alt="operating model design" />
+            <h5>operating model design</h5>
+          </div>
+          <div class="feature">
+            <img src="assets/img/solutions/icon__scalable-partner-ecosystem.svg" alt="scalable partner ecosystem" />
+            <h5>scalable partner ecosystem</h5>
+          </div>
+          <div class="feature">
+            <img src="assets/img/solutions/icon__devops-transformation.svg" alt="DevOps transformation" />
+            <h5>Smart Efficiencies</h5>
+          </div>
+        </div>
+
+        <div class="links">
+          <a href="#" class="btn">Send a Request</a><span>or</span><a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cases">
+    <div class="cases-container">
+      <div class="image-container">
+        <img src="#" alt="people standing" />
+      </div>
+      <div class="cases-body">
+        <h2>Cases</h2>
+        <h4>Consumer Goods</h4>
+        <p>
+          Setup of a new technology operating for Global Consumer Goods
+          Company in order to strengthen availability of critical resources
+          for client's digital ambition.
+        </p>
+        <div class="highlights">
+          <div class="highlight">
+            <h3>5</h3>
+            <h5>digital competence centers established</h5>
+          </div>
+
+          <div class="highlight">
+            <h3>28</h3>
+            <h5>mEUR innovation budgets released</h5>
+          </div>
+
+          <div class="highlight">
+            <h3>10%</h3>
+            <h5>more new IT resources</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="about-container">
+      <div class="about-body">
+        <h2>ABOUT US</h2>
+        <h4>We build technology capabilities.</h4>
+        <p>
+          Our mission to enable our clients to take full benefit of their
+          technology potential for fast innovation, efficient business growth,
+          an intelligent automation.
+        </p>
+
+        <p>
+          Therefore, we provide dedicated technology services that help turn
+          technology opportunities into actual capabilities. We assign expert
+          teams that combine innovative thinking with solid strategizing and
+          reliable execution competence. And we work with a curated network of
+          leading partners, each providing distinct capabilities to achieve
+          tangible results fast.
+        </p>
+
+        <a href="#">Learn More</a>
+      </div>
+      <div class="who-we-are">
+        <h4>See who we are</h4>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="adjustable-element" width="48" height="48.001">
+            <title>icon__linkedin</title>
+            <path
+              d="M48 48H0V0h48v48zM29.748 22.331c3.163 0 3.163 2.992 3.163 5.176V37H39V26.3c0-4.831-.885-9.3-7.308-9.3a6.45 6.45 0 00-5.768 3.149h-.083v-2.666H20V37h6.089v-9.658c0-2.478.435-5.011 3.659-5.011zM10 18v19h6V18zm3.5-10a3.5 3.5 0 103.5 3.5A3.5 3.5 0 0013.5 8z"
+              fill="#0274b3"></path>
+          </svg>LinkedIn</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="adjustable-element" width="48" height="47.201">
+            <title>icon__xing</title>
+            <path
+              d="M47.894 47.2H0V0h48l-.106 47.2zM14.353 15a.672.672 0 00-.605.289.645.645 0 00.037.65l2.971 5.022c.007.007.007.012.006.015a.006.006 0 01-.006 0l-4.664 8.062a.644.644 0 00-.009.65.656.656 0 00.577.312h4.408a1.385 1.385 0 001.192-.846l4.74-8.2-3.019-5.143a1.413 1.413 0 00-1.22-.811z"
+              fill="#006064"></path>
+            <path
+              d="M37.9 9.938l-9.683 16.94v.022l6.17 11.156a.6.6 0 01-.565.947h-4.389a1.351 1.351 0 01-1.215-.816L22 26.906q.325-.576 9.741-17.09A1.352 1.352 0 0132.918 9h4.418a.6.6 0 01.564.938z"
+              fill="#cedd36"></path>
+          </svg>Xing</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="sub-footer">
+        <div class="footer-text">
+          <h4>contact</h4>
+          <h6>Take advantage of expert knowledge</h6>
+          <p>Feel free to get in touch with us via email or phone</p>
+          <div class="links">
+            <a href="#">info@neoverv.com</a>
+            <a href="#">+49(0) 55 / 4321005</a>
+          </div>
+
+          <a class="btn" href="#">Let's Talk</a>
+        </div>
+      </div>
+
+      <div class="main-footer">
+        <div class="footer-logo">
+          <h3><span>neo</span>verv</h3>
+
+          <div class="footer-social-links">
+            <div class="social-link-img-wrapper">
+              <div class="social-link-img"></div>
+            </div>
+
+            <div class="social-link-img-wrapper">
+              <div class="social-link-img"></div>
+            </div>
+          </div>
+
+          <p>Copyright &copy; 2019 neoverv</p>
+        </div>
+
+        <div class="footer-links">
+          <h5>Product</h5>
+
+          <ul class="footer-links">
+            <li><a href="#">neoVision</a></li>
+            <li><a href="#">neoVenture</a></li>
+            <li><a href="#">neoBoost</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h5>Company</h5>
+
           <ul>
             <li><a href="#">neoVision</a></li>
             <li><a href="#">neoVenture</a></li>
             <li><a href="#">neoBoost</a></li>
           </ul>
+        </div>
 
-          <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Insights</a></li>
-            <button class="btn">Get in Touch</button>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section class="top-hero">
-      <div class="hero-text">
-        <h1>Unlock your full technology potential</h1>
-        <p>
-          We create future-ready technology capabilities that boosr your
-          business and help you become a technology leader. Find out what we can
-          do for you.
-        </p>
-        <div class="links">
-          <a href="#" class="btn">Learn More</a> <span>or</span
-          ><a href="#">Contact us</a>
+        <div class="footer-contact">
+          <h5>Want to know more?</h5>
+          <p>Get monthly updates and sign up for the Newsletter</p>
+          <form>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email address" />
+            <button type="submit">submit</button>
+          </form>
         </div>
       </div>
-      <div class="hero-image"></div>
-    </section>
+    </div>
+  </footer>
 
-    <section class="our-partners">
-      <h2>Our Partners</h2>
-      <div class="row">
-        <img src="assets/img/partners/logo-leaware.png" alt="partner" />
+  <script src="assets/scripts/script.js"></script>
+</body>
 
-        <img src="assets/img/partners/logo-mvp.png" alt="partner" />
-
-        <img src="assets/img/partners/logo-tonik.png" alt="partner" />
-      </div>
-
-      <div class="row">
-        <img src="assets/img/partners/logo-kato.png" alt="partner" />
-
-        <img src="assets/img/partners/logo-brighter.png" alt="partner" />
-
-        <img src="assets/img/partners/logo-frischluft.png" alt="partner" />
-
-        <img src="assets/img/partners/logo-heynink.png" alt="partner" />
-      </div>
-    </section>
-
-    <section class="goals">
-      <div class="left-cards-container">
-        <div class="card">
-          <div class="card-logo">
-            <img
-              src="assets/img/goals/icon__goals-foundation.svg"
-              alt="card logo"
-            />
-          </div>
-          <h5 class="card-title">Technology Foundation</h5>
-          <p class="card-text">
-            No business succeeds without technology today. Your technology
-            foundation needs to drive business growth, innovation, and
-            automation.
-          </p>
-        </div>
-
-        <div class="card">
-          <div class="card-logo">
-            <img src="assets/img/goals/icon__goals-speed.svg" alt="card logo" />
-          </div>
-          <h5 class="card-title">Speed & Agility</h5>
-          <p class="card-text">
-            Fast-pace innovations and short product cycles require continuous
-            delivery of technology products and architectural plug & play
-            excellence.
-          </p>
-        </div>
-
-        <div class="card">
-          <div class="card-logo">
-            <img
-              src="assets/img/goals/icon__goals-innovation.svg"
-              alt="card logo"
-            />
-          </div>
-          <h5 class="card-title">Technology Innovation</h5>
-          <p class="card-text">
-            Successful business innovation requires transforming technology
-            trends into business solutions on a continuous basis.
-          </p>
-        </div>
-
-        <div class="card">
-          <div class="card-logo">
-            <img
-              src="assets/img/goals/icon__goals-culture.svg"
-              alt="card logo"
-            />
-          </div>
-          <h5 class="card-title">Culture & Skill Shift</h5>
-          <p class="card-text">
-            Seizing technology opportunities requires continuous learning, an
-            entrepreneurial mindset, and new leadership models.
-          </p>
-        </div>
-      </div>
-
-      <div class="right-cards-container">
-        <div class="lead-text">
-          <h2>UNDERSTAND OPPORTUNITY</h2>
-          <h4>Recognize your goals</h4>
-          <p>
-            Technology provides new opportunities. To leverage them you need to
-            understand your company's technology needs.
-          </p>
-        </div>
-
-        <div class="card">
-          <div class="card-logo">
-            <img
-              src="assets/img/goals/icon__goals-elastic-scaling.svg"
-              alt="card logo"
-            />
-          </div>
-          <h5 class="card-title">Elastic Scaling</h5>
-          <p class="card-text">
-            Markets and business grow dynamically. Technology platforms need to
-            enable fast and efficient scaling.
-          </p>
-        </div>
-        <div class="card">
-          <div class="card-logo">
-            <img
-              src="assets/img/goals/icon__goals-efficiencies.svg"
-              alt="card logo"
-            />
-          </div>
-          <h5 class="card-title">Smart Efficiencies</h5>
-          <p class="card-text">
-            Streaming existing technology assets helps to fuel new
-            technology-driven opportunities.
-          </p>
-        </div>
-        <div class="card">
-          <div class="card-logo">
-            <img
-              src="assets/img/goals/icon__goals-transformation.svg"
-              alt="card logo"
-            />
-          </div>
-          <h5 class="card-title">Transformation Acceleration</h5>
-          <p class="card-text">
-            A clear technology vision shows how to translate opportunities into
-            technology capabilities that advance the business.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="our-solutions">
-      <header>
-        <div class="solutions-text">
-          <h2>OUR SOLUTIONS</h2>
-          <h4>We help seizing technology opportunities.</h4>
-
-          <p>
-            Our technology services are designed to build the capabilities
-            required to seize your distinct technology opportunities.
-          </p>
-        </div>
-      </header>
-
-      <!-- neoVision -->
-      <div class="solutions-container">
-        <div class="image-container">
-          <img
-            src="assets/img/solutions/neovery-neovision-v-1-a@2x-1-1-740x522.png"
-            alt="neoVision"
-          />
-        </div>
-        <div class="solution-body">
-          <h3>neoVision</h3>
-          <h4>Design and accelerate future ready technology strategies</h4>
-          <p>
-            A future-ready technology strategy turns your industry-specific
-            technology opportunities into new capabilities that helps advance
-            aspirations. It lays out how to align technology architecture and
-            operations to achieve match with business and market needs.
-          </p>
-
-          <div class="features">
-            <div class="feature">
-              <img
-                src="assets/img/solutions/icon__technology-readiness.svg"
-                alt="technology readiness"
-              />
-              <h5>Technology Readiness</h5>
-            </div>
-            <div class="feature">
-              <img
-                src="assets/img/solutions/icon__technology-strategy.svg"
-                alt="technology strategy"
-              />
-              <h5>Technology Strategy</h5>
-            </div>
-            <div class="feature">
-              <img
-                src="assets/img/solutions/icon__transformation-acceleration.svg"
-                alt="transformation acceleration"
-              />
-              <h5>Transformation Acceleration</h5>
-            </div>
-            <div class="feature">
-              <img
-                src="assets/img/solutions/icon__smart-efficiencies.svg"
-                alt="smart efficiencies"
-              />
-              <h5>Smart Efficiencies</h5>
-            </div>
-          </div>
-
-          <div class="links">
-            <a href="#" class="btn">Send a Request</a><span>or</span
-            ><a href="#">Learn More</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- neoVenture -->
-      <div class="solutions-container">
-        <div class="image-container">
-          <img
-            src="assets/img/solutions/neovery-neo-venture-v-1-bez-tla@2x-2-740x445.png"
-            alt="neoVenture"
-          />
-        </div>
-        <div class="solution-body">
-          <h3>neoVenture</h3>
-          <h4>Design, build, and scale technology innovation.</h4>
-          <p>
-            Good technology innovation identifies the most viable innovation
-            topics in your market. It uses customer-centered elaboration of
-            initial product ideas and realizes them by taking a lean start-up
-            approach.
-          </p>
-
-          <div class="features">
-            <div class="feature">
-              <img
-                src="assets/img/solutions/icon__innovation-scouting.svg"
-                alt="innovation scouting"
-              />
-              <h5>innovation scouting</h5>
-            </div>
-            <div class="feature">
-              <img
-                src="assets/img/solutions/icon-neoVenture-Venture-Scaling.svg"
-                alt="venture scaling"
-              />
-              <h5>venture scaling</h5>
-            </div>
-            <div class="feature">
-              <img
-                src="assets/img/solutions/icon__mvp-product-building.svg"
-                alt="MVP & product building"
-              />
-              <h5>MVP & product building</h5>
-            </div>
-            <div class="feature">
-              <img
-                src="assets/img/solutions/icon__innovation-units.svg"
-                alt="innovation units"
-              />
-              <h5>innovation units</h5>
-            </div>
-          </div>
-
-          <div class="links">
-            <a href="#" class="btn">Send a Request</a><span>or</span
-            ><a href="#">Learn More</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- neoBoost -->
-      <div class="solutions-container">
-        <div class="image-container">
-          <img
-            src="assets/img/solutions/neovery-neoboost-v-1-beztla@2x-1-1-740x477.png"
-            alt="neoBoost"
-          />
-        </div>
-        <div class="solution-body">
-          <h3>neoBoost</h3>
-          <h4>Boost technology operation for agile scalability.</h4>
-          <p>
-            The new technology operating model is product-centric and sully
-            agile. It aligns business, technology development, and operations
-            teams toward a common goal, maximizing product and customer value.
-            It reduces unnecessary overhead and fosters product quality.
-          </p>
-
-          <div class="features">
-            <div class="feature">
-              <img
-                src="assets/img/solutions/operations-assessement.svg"
-                alt="operations assessment"
-              />
-              <h5>operations assessment</h5>
-            </div>
-            <div class="feature">
-              <img
-                src="assets/img/solutions/icon__agile-coaching.svg"
-                alt="agile coaching"
-              />
-              <h5>agile coaching</h5>
-            </div>
-            <div class="feature">
-              <img
-                src="assets/img/solutions/icon__operating-model-design.svg"
-                alt="operating model design"
-              />
-              <h5>operating model design</h5>
-            </div>
-            <div class="feature">
-              <img
-                src="assets/img/solutions/icon__scalable-partner-ecosystem.svg"
-                alt="scalable partner ecosystem"
-              />
-              <h5>scalable partner ecosystem</h5>
-            </div>
-            <div class="feature">
-              <img
-                src="assets/img/solutions/icon__devops-transformation.svg"
-                alt="DevOps transformation"
-              />
-              <h5>Smart Efficiencies</h5>
-            </div>
-          </div>
-
-          <div class="links">
-            <a href="#" class="btn">Send a Request</a><span>or</span
-            ><a href="#">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="cases">
-
-    </section>
-
-    <section class="about">
-      
-    </section>
-
-    <script src="assets/scripts/script.js"></script>
-  </body>
 </html>
